@@ -1,0 +1,6 @@
+venv/
+API/yolov8l.pt
+API/yolov8n.pt
+API/yolov8x.pt
+.env
+
