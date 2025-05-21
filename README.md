@@ -11,27 +11,30 @@ Features
 ## The system encompasses the following key functionalities:
 
   ### Object Detection:
-  -Utilizes the YOLO (You Only Look Once) deep learning model on Raspberry Pi for real-time detection of multiple objects from live camera feeds.
-  -Ensures fast and accurate identification of objects such as people, vehicles, and obstacles, enabling efficient scene processing with minimal delay.
+  
+  •	Utilizes the YOLO (You Only Look Once) deep learning model on Raspberry Pi for real-time detection of multiple objects from live camera feeds.
+  
+  •	Ensures fast and accurate identification of objects such as people, vehicles, and obstacles, enabling efficient scene processing with minimal delay.
 
   ### Stereo Vision Setup:
-
-  -Two Raspberry Pi cameras are mounted with a fixed baseline distance to replicate human binocular vision for depth perception.
-  -Cameras are synchronized to capture images simultaneously from slightly different angles, crucial for calculating object depth via disparity mapping.
+  •	Two Raspberry Pi cameras are mounted with a fixed baseline distance to replicate human binocular vision for depth perception.
+  
+  •	Cameras are synchronized to capture images simultaneously from slightly different angles, crucial for calculating object depth via disparity mapping.
 
   ### Distance Measurement:
-
-  -Employs triangulation and stereo disparity calculations to estimate the precise distance between the camera and each detected object.
-  -Depth information helps determine object proximity, vital for applications in robotics, security, and automation.
+  •	Employs triangulation and stereo disparity calculations to estimate the precise distance between the camera and each detected object.
+  
+  •	Depth information helps determine object proximity, vital for applications in robotics, security, and automation.
 
   ### Direction Estimation:
-
-  -Calculates the relative horizontal position of each object to estimate its angle or bearing from the center axis of the camera setup.
-  -Provides spatial awareness for directional tracking (left/right/center) of moving objects, aiding navigation and decision-making.
+  •	Calculates the relative horizontal position of each object to estimate its angle or bearing from the center axis of the camera setup.
+  
+  •	Provides spatial awareness for directional tracking (left/right/center) of moving objects, aiding navigation and decision-making.
 
   ### Query Integration using Open Router LLM:
-  -The server interfaces with Open Router, a powerful natural language model, to interpret user queries and return intelligent, contextual responses.
-  -Users can ask flexible questions like "What’s the closest object to the camera right now?" or "Where was the car detected in the last 5 minutes?" and receive human-like answers.
+  •	The server interfaces with Open Router, a powerful natural language model, to interpret user queries and return intelligent, contextual responses.
+  
+  •	Users can ask flexible questions like "What’s the closest object to the camera right now?" or "Where was the car detected in the last 5 minutes?" and receive human-like answers.
 
 ## System Architecture
 
