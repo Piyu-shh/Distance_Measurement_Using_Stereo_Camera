@@ -69,8 +69,8 @@ Features
 
 ![sw](https://github.com/user-attachments/assets/0ae3de70-e31f-4aef-b41e-6e5d34dabb11)
 
-##TODO
+## TODO
 
-1. Integrate Database
-2. Integrate Face Regonization
-3. Improve Calibration Method
+  1. Integrate Database
+  2. Integrate Face Regonization
+  3. Improve Calibration Method
